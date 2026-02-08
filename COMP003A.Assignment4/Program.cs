@@ -12,7 +12,14 @@
             int choice = 0;
             bool ifRunning = true;
 
-            Console.WriteLine("");
+            while (ifRunning)  // This will keep the loop going until you exit
+            {
+                Console.WriteLine("Choice 1: Start/Continue Routine");
+                Console.WriteLine("Choice 2: View Progress");
+                Console.WriteLine("Choice 3: Exit");
+                Console.Write("Enter Choice: ");
+                choice = int.Parse(Console.ReadLine());
+            }
         }
     }
 }
