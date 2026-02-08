@@ -10,9 +10,9 @@
             int restrictedSteps = 2;   // This indicates the Restriced Steps (Skip Behavior)
             int safetyLimit = 4;       // This indicates the saftey stop
             int choice = 0;
-            bool ifRunning = true;
+            bool whenRunning = true;
 
-            while (ifRunning)  // This will keep the loop going until you exit
+            while (whenRunning)  // This will keep the loop going until you exit
             {
                 Console.WriteLine();
                 Console.WriteLine("Choice 1: Start/Continue Routine");
