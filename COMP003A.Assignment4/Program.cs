@@ -44,6 +44,10 @@
                     case 2:
                         Console.WriteLine($"Current Progress: {currentStep} steps completed");
                         break;
+                    case 3:
+                        ifRunning = false;
+                        Console.WriteLine("Program Ended");
+                        break;
                 }
             }
         }
