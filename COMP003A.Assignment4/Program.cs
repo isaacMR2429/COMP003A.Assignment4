@@ -41,6 +41,9 @@
                         }
                         Console.WriteLine($"Routine Step {currentStep} completed.");
                         break;
+                    case 2:
+                        Console.WriteLine($"Current Progress: {currentStep} steps completed");
+                        break;
                 }
             }
         }
