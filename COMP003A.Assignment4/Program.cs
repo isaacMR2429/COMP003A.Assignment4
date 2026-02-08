@@ -48,7 +48,7 @@
                         Console.WriteLine($"Current Progress: {currentStep} steps completed");
                         break;
                     case 3:   // Choise 3 ends the Program
-                        ifRunning = false;
+                        whenRunning = false;
                         Console.WriteLine("Program has Ended");
                         break;
                 }
