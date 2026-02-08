@@ -32,7 +32,7 @@
                         }
                         if (currentStep == safetyLimit) // Stops the routine early once the safety limit is reached
                         {
-                            Console.WriteLine("Safety limit reached. Routine stopped.");
+                            Console.WriteLine($"Step {currentStep} has activated Safety limit. Routine stopped.");
                             break; // breaks out of the switch and returns to the menu option
                         }
                         if (currentStep > maximumStep) // Stops the routine once the maximum number of steps have been completed
